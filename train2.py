@@ -40,11 +40,11 @@ cos = ibm_boto3.resource('s3',
 ################################################################################
 # Choose Bucket
 ################################################################################
-def askForBucket():
+'''def askForBucket():
   bucket_list = []
-  for i, bucket in enumerate(cos.buckets.all()):
-    bucket_list.append(bucket.name)
-    print('  {}) {}'.format(i + 1, bucket.name))
+  for i, bucket in enumerate(cos.buckets.all()):'''
+  bucket_list.append(bucket.name)
+  print('  {}) {}'.format(i + 1, bucket.name))
 
   bucket_id_name = '1'
 
