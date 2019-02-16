@@ -61,14 +61,14 @@ def askForBucket():
     except ValueError:
       print('\nPlease choose a valid bucket:')
       return askForBucket()
-'''
+
 if args.data_bucket_name == None:
   print('\nPlease choose a training \033[92mdata\033[0m bucket:')
   args.data_bucket_name = askForBucket()
 
 if args.result_bucket_name == None:
   print('\nPlease choose a training \033[92mresults\033[0m bucket:')
-  args.result_bucket_name = askForBucket()
+  args.result_bucket_name = askForBucket()'''
 
 
 ################################################################################
