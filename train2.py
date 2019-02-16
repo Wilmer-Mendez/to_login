@@ -40,14 +40,13 @@ cos = ibm_boto3.resource('s3',
 ################################################################################
 # Choose Bucket
 ################################################################################
+bucket_list.append(bucket.name)
+print('  {}) {}'.format(i + 1, bucket.name))
 
-  bucket_list.append(bucket.name)
-  print('  {}) {}'.format(i + 1, bucket.name))
+bucket_id_name = 1
 
-  bucket_id_name = 1
-
-  if bucket_id_name in bucket_list:
-    return bucket_id_name
+if bucket_id_name in bucket_list:
+  return bucket_id_name
 
 
 ################################################################################
