@@ -46,11 +46,11 @@ def askForBucket():
     bucket_list.append(bucket.name)
     print('  {}) {}'.format(i + 1, bucket.name))
 
-  bucket_id_name = '2'         #input("Bucket: ")
+  bucket_id_name = 2         #input("Bucket: ")
 
   if bucket_id_name in bucket_list:
     return bucket_id_name
-  else:
+ ''' else:
     try:
       bucket_id_name = int(bucket_id_name)
       if bucket_id_name <= len(bucket_list) and bucket_id_name > 0:
@@ -68,7 +68,7 @@ if args.data_bucket_name == None:
 
 if args.result_bucket_name == None:
   print('\nPlease choose a training \033[92mresults\033[0m bucket:')
-  args.result_bucket_name = askForBucket()
+  args.result_bucket_name = askForBucket()'''
 
 
 ################################################################################
