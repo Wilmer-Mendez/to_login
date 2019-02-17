@@ -50,25 +50,7 @@ def askForBucket():
 
   if bucket_id_name in bucket_list:
     return bucket_id_name
- ''' else:
-    try:
-      bucket_id_name = int(bucket_id_name)
-      if bucket_id_name <= len(bucket_list) and bucket_id_name > 0:
-        return bucket_list[bucket_id_name - 1]
-      else:
-        print('\nPlease choose a valid bucket:')
-        return askForBucket()
-    except ValueError:
-      print('\nPlease choose a valid bucket:')
-      return askForBucket()
 
-if args.data_bucket_name == None:
-  print('\nPlease choose a training \033[92mdata\033[0m bucket:')
-  args.data_bucket_name = askForBucket()
-
-if args.result_bucket_name == None:
-  print('\nPlease choose a training \033[92mresults\033[0m bucket:')
-  args.result_bucket_name = askForBucket()'''
 
 
 ################################################################################
