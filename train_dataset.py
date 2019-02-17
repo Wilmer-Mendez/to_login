@@ -46,7 +46,7 @@ def askForBucket():
     bucket_list.append(bucket.name)
     print('  {}) {}'.format(i + 1, bucket.name))
 
-  bucket_id_name = 1         #input("Bucket: ")
+  bucket_id_name = 2         #input("Bucket: ")
 
   if bucket_id_name in bucket_list:
     return bucket_id_name
